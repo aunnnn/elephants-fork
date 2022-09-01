@@ -9,7 +9,7 @@ body {
     text-align: center;
 }
 
-#page-title h1 a, .post a {
+#page-title h1 a, .post-title a {
     color: black;
 }
 
@@ -17,19 +17,23 @@ a {
     text-decoration: none;
 }
 
-#page-title a:hover, .post a:hover {
+#page-title a:hover, .post-title a:hover {
     text-decoration: underline;
 }
 
-.date-time-title {
+.post-date {
     display: inline-block;
 }
 
-#posts {
+.post-title {
+    display: inline-block;
+}
+
+.post-line {
     padding-left: 2em;
 }
 
-.post {
+.post-title {
     padding-left: 1em;
 }
 
